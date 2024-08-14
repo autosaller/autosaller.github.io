@@ -1,45 +1,54 @@
-// Get necessary global variables
+// First, get access to the required global variables
 const self = window.self;
 const top = window.top;
 const parent = window.parent;
 
-// Define helper functions for checking iframes
-let isFramed = false;
+// Then, create a function to execute whenever the DOM is ready
+(function () {
+  // Next, define a variable named "isFramed" to store the result of our test
+  let isFramed = false;
 
-/**
- * Checks whether the page is being loaded inside an iframe
- */
-function checkIsFramed() {
-  isFramed = (self.location !== top.location || self.location !== parent.location ||
-            (!/^file:\/\/*$/.test(self.location) && self === top && self !== parent) ||
-            (self.name !== '' && name !== parent.window.name) ||
-            parent.frames['\x00'] !== null);
-}
+  // Now, write the logic to see if we're being framed
+  const d = document;
+  const body = d.getElementsByTagName("BODY")[0];
+  const html = d.documentElement;
 
-// Run the check every hundred milliseconds
-setInterval(checkIsFramed, 100);
+  // Test for different browsers
+  isFramed = (d.location !== html.cloneNode(true).sheet.cssRules[0].styles.mozLocation ||
+              d.location !== body.style.mozBackgroundURI ||
+              d.location !== top.location ||
+              self.location !== top.self.location) &&
+             (self.location !== parent.location ||
+              !(/xml|rss)$/.test(d.webkitDocumentOrigionalURL));
 
-/**
- * Handles actions when the page is found inside another frame
- */
-function handleFrameDetection() {
-  // Remove any existing iframes from the page
-  const frames = Array.from(document.getElementsByTagName('IFRAME'));
-  frames.forEach((frame) => {
-    frame.parentNode.removeChild(frame);
-  });
+  // Run checks periodically until we find out whether the page is being loaded into an iframe
+  setInterval(checkIsFramed, 100);
 
-  // Open the original URL in a new tab
-  chrome.tabs.create({ url: location.href }, function(tab) {
-    setTimeout(() => {
-      self.close();
-    }, 50);
-  });
-}
+  /**
+   * Helper function to run periodic checks to confirm whether the page is being loaded into an iframe.
+   */
+  function checkIsFramed() {
+    isFramed = ((window !== window.top && window !== window.parent) ||
+                (self !== top && self !== parent)) &&
+               ((window.name !== "" && name !== parent.window.name) ||
+                parent.frames["\u0000"] !== null);
+  }
 
-/**
- * Main entry point for executing the protection mechanism
- */
-if (isFramed) {
-  handleFrameDetection();
-}
+  // Finally, write the cleanup logic to remove child frames and redirect users
+  if (isFramed) {
+    const frames = Array.from(document.getElementsByTagName("IFRAME"));
+    frames.forEach((frame) => {
+      frame.parentNode.removeChild(frame);
+    });
+
+    const loc = window.location.origin + window.location.pathname;
+    const targetOrigin = window.parent.location.origin;
+
+    if (targetOrigin == loc) {
+      window.location.reload();
+    } else {
+      window.opener = null;
+      window.open(loc, '_blank').focus();
+    }
+  }
+})();
