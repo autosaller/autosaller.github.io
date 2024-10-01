@@ -1,0 +1,42 @@
+#EXTM3U
+#EXTINF:-1 ,Первый канал HD
+https://edge4.1internet.tv/dash-live2/streams/1tv-dvr/1tvdash.mpd
+#EXTINF:-1,Россия 1
+http://s18209.cdn.ngenix.net/hls/CH_R04_ROSSIA1/playlist.m3u8
+#EXTINF:-1,Россия 24
+http://s18209.cdn.ngenix.net/hls/CH_R01_ROSSIA24/playlist.m3u8
+#EXTINF:-1,5-ТВ
+http://s18209.cdn.ngenix.net/hls/CH_R02_5TV/playlist.m3u8
+#EXTINF:-1,СТС
+http://s18209.cdn.ngenix.net/hls/CH_R02_STS/playlist.m3u8
+#EXTINF:-1,ТНТ
+http://s18209.cdn.ngenix.net/hls/CH_R01_TNT/playlist.m3u8
+#EXTINF:-1 group-title="Федеральные",НТВ
+https://cdn.ntv.ru/ntv-spb/tracks-v3a1/mono.m3u8
+#EXTINF:-1,Рен-Тв
+http://s18209.cdn.ngenix.net/hls/CH_R02_RENTV/playlist.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Звезда
+https://tvzvezda.bonus-tv.ru/cdn/tvzvezda/playlist.m3u8
+#EXTINF:-1,Домашний
+http://s18209.cdn.ngenix.net/hls/CH_R04_DOMASHNY/playlist.m3u8
+#EXTINF:-1,Ю-ТВ
+http://s18209.cdn.ngenix.net/hls/CH_R03_U/playlist.m3u8
+#EXTINF:-1,КРИК-ТВ
+http://cdn-01.bonus-tv.ru/kriktv_edge/index.m3u8
+#EXTINF:0 tvg-country="RU" group-title="Undefined",RBK,RU | RBK
+http://e3.online.video.rbc.ru/online2/rbctv_360p/index.m3u8
+#EXTINF:-1 group-title="Политика",Красная Линия
+https://s55766.cdn.ngenix.net/s55766-media-origin/rline_high/tracks-v1a1/mono.m3u8
+#EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",Кино и сериалы (СМОТРИМ)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/smotrim/CH_KINO_I_SERIALY.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",ТВЦ
+http://dmi3y-tv.ru/hls/T2/CH_TVC.m3u8
+#EXTINF:-1,Санкт-Петербург
+https://player.smotrim.ru/iframe/stream/live_id/62037
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Пятница!
+http://dmi3y-tv.ru/hls/T2/CH_FRIDAY.m3u8
+#EXTINF:-1,НТВ Хит
+https://cdn.ntv.ru/th_style/playlist.m3u8
+#EXTINF:-1,НТВ Сереал
+https://cdn.ntv.ru/th_serial/playlist.m3u8
