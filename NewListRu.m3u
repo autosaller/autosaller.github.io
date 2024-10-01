@@ -40,3 +40,5 @@ http://dmi3y-tv.ru/hls/T2/CH_FRIDAY.m3u8
 https://cdn.ntv.ru/th_style/playlist.m3u8
 #EXTINF:-1,НТВ Сереал
 https://cdn.ntv.ru/th_serial/playlist.m3u8
+#EXTINF:-1,Дом кино
+https://streaming.skynetconnect.online/live/44.m3u8
