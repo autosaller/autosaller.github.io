@@ -344,7 +344,7 @@
   function resizeAds() {
     const adsBlockWidth = adsBlock.offsetWidth;
     const scale = adsBlockWidth / 468;
-
+    const scale2 = adsBlockWidth / 728;
     ad1.style.transform = `scale(${scale})`;
     ad1.style.transformOrigin = '0 0';
     ad2.style.transform = `scale(${scale})`;
@@ -355,7 +355,7 @@
     ad4.style.transformOrigin = '0 0';
 	ad5.style.transform = `scale(${scale})`;
     ad5.style.transformOrigin = '0 0';
-	ad6.style.transform = `scale(${scale})`;
+	ad6.style.transform = `scale(${scale2})`;
     ad6.style.transformOrigin = '0 0';
   }
 
