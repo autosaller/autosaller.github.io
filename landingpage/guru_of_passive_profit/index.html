@@ -321,14 +321,21 @@
 <footer>
 <div class="foot"style="padding:5vh;background: rgba(0, 0, 0, 0.75); color:#fff; text-align:center;">Дата создания сайта: 2024 год</div>
 </footer>		 
-<script>
+	<div id="ads-block">
+<div id="ad6" class="ad" style="text-align:center;position:fixed;bottom:3px;right:3px;width:100%;z-index:999999;cursor:pointer;line-height:0;display:block;">
+<center>
+<iframe src="https://zerads.com/ad/ad.php?width=728&ref=5551" marginwidth="0" marginheight="0" width="728" height="90" scrolling="no" border="0" frameborder="0"></iframe>
+</center>	
+</div>
+		</div>
+	<script>
   const adsBlock = document.getElementById('ads-block');
   const ad1 = document.getElementById('ad1');
   const ad2 = document.getElementById('ad2');
   const ad3 = document.getElementById('ad3');
   const ad4 = document.getElementById('ad4');
   const ad5 = document.getElementById('ad5');
-  
+   const ad6 = document.getElementById('ad6');
 
   function resizeAds() {
     const adsBlockWidth = adsBlock.offsetWidth;
@@ -344,7 +351,8 @@
     ad4.style.transformOrigin = '0 0';
 	ad5.style.transform = `scale(${scale})`;
     ad5.style.transformOrigin = '0 0';
-	
+	ad6.style.transform = `scale(${scale})`;
+    ad6.style.transformOrigin = '0 0';
   }
 
   window.addEventListener('resize', resizeAds);
