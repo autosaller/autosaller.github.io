@@ -325,7 +325,7 @@
 <footer>
 <div class="foot"style="padding:5vh;background: rgba(0, 0, 0, 0.75); color:#fff; text-align:center;">Дата создания сайта: 2024 год</div>
 </footer>		 
-	<div id="ads-block">
+	<div id="ads-block-2">
 <div id="ad6" class="ad" style="text-align:center;position:fixed;bottom:3px;right:3px;width:100%;z-index:999999;cursor:pointer;line-height:0;display:block;">
 <center>
 <iframe src="https://zerads.com/ad/ad.php?width=728&ref=5551" marginwidth="0" marginheight="0" width="728" height="90" scrolling="no" border="0" frameborder="0"></iframe>
@@ -333,30 +333,34 @@
 </div>
 		</div>
 	<script>
-  const adsBlock = document.getElementById('ads-block');
-  const ad1 = document.getElementById('ad1');
-  const ad2 = document.getElementById('ad2');
-  const ad3 = document.getElementById('ad3');
-  const ad4 = document.getElementById('ad4');
-  const ad5 = document.getElementById('ad5');
-  const ad6 = document.getElementById('ad6');
+  const adsBlock1 = document.getElementById('ads-block');
+  const adsBlock2 = document.getElementById('ads-block-2');
+  const ads1 = [
+    document.getElementById('ad1'),
+    document.getElementById('ad2'),
+    document.getElementById('ad3'),
+    document.getElementById('ad4'),
+    document.getElementById('ad5')
+  ];
+  const ads2 = [
+    document.getElementById('ad6')
+  ];
 
   function resizeAds() {
-    const adsBlockWidth = adsBlock.offsetWidth;
-    const scale = adsBlockWidth / 468;
-    const scale2 = adsBlockWidth / 728;
-    ad1.style.transform = `scale(${scale})`;
-    ad1.style.transformOrigin = '0 0';
-    ad2.style.transform = `scale(${scale})`;
-    ad2.style.transformOrigin = '0 0';
-    ad3.style.transform = `scale(${scale})`;
-    ad3.style.transformOrigin = '0 0';
-    ad4.style.transform = `scale(${scale})`;
-    ad4.style.transformOrigin = '0 0';
-	ad5.style.transform = `scale(${scale})`;
-    ad5.style.transformOrigin = '0 0';
-	ad6.style.transform = `scale(${scale2})`;
-    ad6.style.transformOrigin = '0 0';
+    const adsBlockWidth1 = adsBlock1.offsetWidth;
+    const adsBlockWidth2 = adsBlock2.offsetWidth;
+    const scale = adsBlockWidth1 / 468;
+    const scale2 = adsBlockWidth2 / 728;
+
+    ads1.forEach((ad) => {
+      ad.style.transform = `scale(${scale})`;
+      ad.style.transformOrigin = '0 0';
+    });
+
+    ads2.forEach((ad) => {
+      ad.style.transform = `scale(${scale2})`;
+      ad.style.transformOrigin = '0 0';
+    });
   }
 
   window.addEventListener('resize', resizeAds);
