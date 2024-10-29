@@ -86,3 +86,6 @@ http://dmi3y-tv.ru/hls/zabava/CH_VSETV.m3u8
 #EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Всё ТВ HD
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_VSETVHD.m3u8
+#EXTINF:-1,National Geographic
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://zabava-htlive.cdn.ngenix.net/hls/CH_NATGEO/variant.m3u8
