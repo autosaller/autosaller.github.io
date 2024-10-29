@@ -64,7 +64,7 @@ http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_LENTV24.m3u8
 http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPB.m3u8
 #EXTINF:-1 group-title="РЕГИОНАЛЬНЫЕ",78 канал HD (Санкт-Петербург)
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
-http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_78CHANNELHD.m3u8
+http://a3285274819-rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_KANAL78/playlist.m3u8
 #EXTINF:-1 group-title="КИНО И СЕРИАЛЫ",СТС Love
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_STSLOVE.m3u8
