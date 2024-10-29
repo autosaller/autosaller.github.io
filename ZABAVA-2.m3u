@@ -1,4 +1,5 @@
-﻿#EXTINF:-1 group-title="ЭФИРНЫЕ" tvg-logo="https://prlreklama.ru/wp-content/uploads/2024/01/chanel1.jpg",Первый канал
+#EXTM3U
+#EXTINF:-1 group-title="ЭФИРНЫЕ" tvg-logo="https://prlreklama.ru/wp-content/uploads/2024/01/chanel1.jpg",Первый канал
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/DVB-T2/CH_1TV.m3u8
 #EXTINF:-1 group-title="ЭФИРНЫЕ",Россия 1
