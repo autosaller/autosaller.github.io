@@ -16,6 +16,8 @@ http://dmi3y-tv.ru/hls/DVB-T2/CH_5TV.m3u8
 http://dmi3y-tv.ru/hls/DVB-T2/CH_NTV.m3u8
 #EXTINF:-1 group-title="ЭФИРНЫЕ",РБК
 http://online-video.rbc.ru/online/rbctvhd_360p/index.m3u8
+#EXTINF:-1 group-title="ЭФИРНЫЕ",Звезда
+https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
 #EXTINF:-1 group-title="ЭФИРНЫЕ",Карусель
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/DVB-T2/CH_KARUSEL.m3u8
