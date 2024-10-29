@@ -1,5 +1,4 @@
 ﻿#EXTM3U
-
 #EXTINF:-1 group-title="ЭФИРНЫЕ",Первый канал
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/DVB-T2/CH_1TV.m3u8
@@ -75,16 +74,12 @@ http://dmi3y-tv.ru/hls/zabava/CH_2X2.m3u8
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",Суббота!
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_SUBBOTA.m3u8
-
 #EXTINF:-1 group-title="РАЗВЛЕКАТЕЛЬНЫЕ",ТНТ4
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_TNT4.m3u8
-
-
 #EXTINF:-1 group-title="ДЕТСКИЕ",Солнце
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_DISNEY.m3u8
-
 #EXTINF:-1 group-title="ИНФОРМАЦИОННЫЕ",Всё ТВ
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/CH_VSETV.m3u8
