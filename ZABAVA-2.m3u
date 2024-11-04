@@ -73,7 +73,7 @@ http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPB.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_78CHANNELHD.m3u8
 #EXTINF:-1 group-title="РЕГИОНАЛЬНЫЕ",78 канал
-https://78.servicecdn.ru/streams/877_13/360p/index.m3u8
+https://78.servicecdn.ru/streams/877_13/360n/index.m3u8
 #EXTINF:-1 group-title="РЕГИОНАЛЬНЫЕ",78 канал(резерв)
 https://78.servicecdn.ru/streams/877_13/playlist.m3u8
 #EXTINF:-1 group-title="РЕГИОНАЛЬНЫЕ",Санкт-Петербург
