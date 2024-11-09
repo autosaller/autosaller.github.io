@@ -9,48 +9,45 @@
     <div id="content"></div>
 
     <script>
-// Массив файлов с заданными шансами (в процентах)
-const filesWithPercentages = [
-    { file: 'http://survivalskills.eu5.org/app/index-468.php', percentage: 50 }, // 50%
-    { file: 'http://survivalskills.eu5.org/app/index-468.php', percentage: 50 },
-    { file: 'http://survivalskills.eu5.org/app/index-728.php', percentage: 20 },  // 30%
-    { file: 'http://survivalskills.eu5.org/app/index-728.php', percentage: 20 },
-    { file: 'http://survivalskills.eu5.org/app/index-300.php', percentage: 30 },
-    { file: 'http://survivalskills.eu5.org/app/index-300.php', percentage: 30 }   // 20%
-];
+        // Массив файлов с заданными шансами (в процентах)
+        const filesWithPercentages = [
+            { file: 'http://survivalskills.eu5.org/app/index-468.php', percentage: 50 }, // 50%
+            { file: 'http://survivalskills.eu5.org/app/index-728.php', percentage: 20 },  // 20%
+            { file: 'http://survivalskills.eu5.org/app/index-300.php', percentage: 30 }   // 30%
+        ];
 
-// Функция для выбора файла на основе процентов
-function selectFileWithPercentages(files) {
-    const totalPercentage = files.reduce((sum, file) => sum + file.percentage, 0);
-    const random = Math.random() * totalPercentage;
-    let cumulativePercentage = 0;
+        // Функция для выбора файла на основе процентов
+        function selectFileWithPercentages(files) {
+            const totalPercentage = files.reduce((sum, file) => sum + file.percentage, 0);
+            const random = Math.random() * totalPercentage;
+            let cumulativePercentage = 0;
 
-    for (const file of files) {
-        cumulativePercentage += file.percentage;
-        if (random < cumulativePercentage) {
-            return file.file;
+            for (const file of files) {
+                cumulativePercentage += file.percentage;
+                if (random < cumulativePercentage) {
+                    return file.file;
+                }
+            }
         }
-    }
-}
 
-// Функция для загрузки файла
-async function loadFile() {
-    const selectedFile = selectFileWithPercentages(filesWithPercentages);
-    const contentDiv = document.getElementById('content');
+        // Функция для загрузки файла
+        async function loadFile() {
+            const selectedFile = selectFileWithPercentages(filesWithPercentages);
+            const contentDiv = document.getElementById('content');
 
-    try {
-        const response = await fetch(selectedFile);
-        if (!response.ok) throw new Error('Network response was not ok');
-        const content = await response.text();
-        contentDiv.innerHTML = content;
-    } catch (error) {
-        console.error('Ошибка при загрузке файла:', error);
-        contentDiv.innerHTML = '<p>Ошибка загрузки контента.</p>';
-    }
-}
+            try {
+                const response = await fetch(selectedFile);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const content = await response.text();
+                contentDiv.innerHTML = content;
+            } catch (error) {
+                console.error('Ошибка при загрузке файла:', error);
+                contentDiv.innerHTML = '<p>Ошибка загрузки контента.</p>';
+            }
+        }
 
-// Загружаем файл при загрузке страницы
-window.onload = loadFile;
+        // Загружаем файл при загрузке страницы
+        window.onload = loadFile;
     </script>
 </body>
 </html>
