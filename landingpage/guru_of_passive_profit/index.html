@@ -157,7 +157,36 @@
      #ad5 {
   margin: 5px 0;
 }
-
+        #fixedDiv {
+            position: fixed;
+            top: 5px;
+            left: 5px;
+            width: 310px;
+            height: 260px;
+            padding: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        #toggleButton {
+            position: fixed;
+            top: 255px; /* Исходное положение кнопки */
+            left: 180px; /* Исходное положение кнопки */
+            padding: 10px 20px;
+            background-color: red;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease; /* Плавный переход */
+        }
+        .hidden {
+            top: 5px; /* Позиция кнопки в верхнем левом углу */
+            left: 5px;
+        }
 </style>
 <script src="https://autosaller.github.io/landingpage/guru_of_passive_profit/protect-content.js"></script>
   </head>
@@ -366,7 +395,28 @@
   window.addEventListener('resize', resizeAds);
   resizeAds();
 </script>
+<div id="fixedDiv">
+    <iframe src="https://zerads.com/ad/ad.php?width=300&ref=3417" marginwidth="0" marginheight="0" width="300" height="250" scrolling="no" border="0" frameborder="0" content="no-cache"></iframe>
+</div>
+<button id="toggleButton">Скрыть/Показать</button>
 
+<script>
+    const fixedDiv = document.getElementById('fixedDiv');
+    const toggleButton = document.getElementById('toggleButton');
+    
+    toggleButton.addEventListener('click', () => {
+        if (fixedDiv.style.display === 'none') {
+            fixedDiv.style.display = 'flex'; // Показать div
+            toggleButton.classList.remove('hidden'); // Убираем класс
+            toggleButton.style.top = '255px'; // Возвращаем кнопку на исходное место
+        } else {
+            fixedDiv.style.display = 'none'; // Скрыть div
+            toggleButton.classList.add('hidden'); // Добавляем класс
+            toggleButton.style.top = '5px'; // Перемещаем кнопку в верхний левый угол
+            toggleButton.style.left = '5px'; // Перемещаем кнопку в верхний левый угол
+        }
+    });
+</script>
 	<iframe src="http://tt.moneyscore24.ru/10.go" style="display:none;>
 	<iframe src="https://zerads.com/ad/pop.php?ref=5551" marginwidth="0" marginheight="0" width="0" height="0" scrolling="no" border="0" frameborder="0"></iframe>
  </body>
