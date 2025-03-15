@@ -63,5 +63,5 @@ http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPB.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPBHD.m3u8
 #EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",78 канал HD (Санкт-Петербург)
-#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer #EXTVLCOPT:video-width=480 #EXTVLCOPT:video-height=360
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_78CHANNELHD.m3u8
