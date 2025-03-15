@@ -1,0 +1,67 @@
+﻿#EXTM3U
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Первый канал (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_1TV.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Россия 1 (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_ROSSIA1.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",НТВ (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_NTV.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Пятый канал (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_5TV.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Россия 24 (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_ROSSIA24.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Россия К (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_ROSSIAK.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",ОТР (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_OTR.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",ТВЦ (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_TVC.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",РЕН ТВ (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_RENTV.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",СТС (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_STS.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Домашний (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_DOMASHNIY.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",ТВ3 (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_TV3.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Пятница! (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_FRIDAY.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Звезда (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_ZVEZDA.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",МИР (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_MIR.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",ТНТ (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_TNT.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Че! (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_CHE.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Ю (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_U.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Лен ТВ 24 (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_LENTV24.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Санкт-Петербург (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPB.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",Санкт-Петербург HD (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPBHD.m3u8
+#EXTINF:-1 group-title="САНКТ-ПЕТЕРБУРГ",78 канал HD (Санкт-Петербург)
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
+http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_78CHANNELHD.m3u8
