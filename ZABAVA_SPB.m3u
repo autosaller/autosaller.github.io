@@ -66,4 +66,5 @@ http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_SPBHD.m3u8
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://dmi3y-tv.ru/hls/zabava/region/SPB/CH_78CHANNELHD.m3u8
 #EXTINF:-1 group-title="Информационные" tvg-logo="https://i.ibb.co/bvQZLbh/78-s.jpg" channelId="115" tvg-id="78kanal",Канал 78
+#EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 http://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_KANAL78/variant.m3u8
