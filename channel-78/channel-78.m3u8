@@ -1,6 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=360000
-https://bl.rutube.ru/livestream/bbf23277dbd0dd0e6a623526d4c3f8c9/index.m3u8
-#EXT-X-STREAM-INF:BANDWIDTH=360000
 https://a3285275077-rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_KANAL78/playlist.m3u8?utcstart=1746709200
