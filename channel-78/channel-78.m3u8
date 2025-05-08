@@ -1,8 +1,6 @@
 #EXTM3U
 #EXT-X-VERSION:3
 #EXT-X-STREAM-INF:BANDWIDTH=360000
-https://a3285275077-rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R02_KANAL78/playlist.m3u8?utcstart=1746709200
-#EXT-X-STREAM-INF:BANDWIDTH=360000
 https://salam-mskost-3.rutube.ru/dive/river-3-336.rutube.ru/iniUyRX25gOGKKG81siSOA/stream/genetta-318.m9.rutube.ru/5ub3KJKirY6hOgRF0t-R7A/1747333895/bbf23277dbd0dd0e6a623526d4c3f8c9/360p_stream.m3u8
 #EXT-X-STREAM-INF:BANDWIDTH=360000
 https://salam-mskth-75.rutube.ru/dive/river-3-336.rutube.ru/mHy6XgwYI7IZvAWjMh2UAA/stream/genetta-318.m9.rutube.ru/R0g_6_RELShGQcvQyx5tcA/1747334334/bbf23277dbd0dd0e6a623526d4c3f8c9/360p_stream.m3u8
