@@ -1,4 +1,4 @@
-#EXTM3U
+#EXTM3U cache=500
 #EXTINF:-1 group-title="Санкт-Петербург Лен.Область",Первый канал 
 #EXTVLCOPT:http-user-agent=WINK/1.40.1 (AndroidTV/9) HlsWinkPlayer
 https://rt-nw-spb-htlive.cdn.ngenix.net/hls/CH_R03_1TV/variant.m3u8
